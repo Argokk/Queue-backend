@@ -18,6 +18,7 @@ class QueueEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id:Long? = 0
+    var peopleCount:Int? = null
     var isEnabled: Boolean? = true
     var averageServiceSeconds: Int? = null
     @OneToMany(mappedBy = "queue")
