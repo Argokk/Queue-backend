@@ -21,7 +21,7 @@ import java.util.Queue
 class QueueEntryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long? = 0
+    var id: Long? = null
     var userId: Long? = null
     var sequenceNumber: Int? = null
     @Enumerated(EnumType.STRING)
