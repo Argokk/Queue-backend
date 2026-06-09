@@ -652,3 +652,11 @@ select qe1_0.id,qe1_0.average_service_seconds,qe1_0.enterprise_id,qe1_0.is_enabl
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
 	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-06-07 17:59:49.400678+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]jdbc:h2:file:./data/testdb"
+Syntax error in SQL statement "[*]jdbc:h2:file:./data/testdb"; SQL statement:
+jdbc:h2:file:./data/testdb [42000-240]
+2026-06-07 17:59:55.735582+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "[*]jdbc:h2:file:./data/testdb"
+Syntax error in SQL statement "[*]jdbc:h2:file:./data/testdb"; SQL statement:
+jdbc:h2:file:./data/testdb [42000-240]
